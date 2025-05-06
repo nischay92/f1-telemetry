@@ -1,0 +1,56 @@
+version: '3.8'
+
+services:
+  engine:
+    build:
+      context: .
+      dockerfile: ./engine_service/Dockerfile
+    volumes:
+      - ./engine_service:/app
+      - ./logs:/app/logs  # Shared logs
+    restart: always
+
+  tire:
+    build:
+      context: .
+      dockerfile: ./tire_service/Dockerfile
+    volumes:
+      - ./tire_service:/app
+      - ./logs:/app/logs
+    restart: always
+
+  brake:
+    build:
+      context: .
+      dockerfile: ./brake_service/Dockerfile
+    volumes:
+      - ./brake_service:/app
+      - ./logs:/app/logs
+    restart: always
+
+  aggregator:
+    build:
+      context: .
+      dockerfile: ./aggregator_service/Dockerfile
+    volumes:
+      - ./aggregator_service:/app
+      - ./logs:/app/logs
+    depends_on:
+      - engine
+      - tire
+      - brake
+    restart: always
+
+  dashboard:
+    build:
+      context: .
+      dockerfile: ./dashboard_service/Dockerfile
+    ports:
+      - "8050:8050"
+    volumes:
+      - ./dashboard_service:/app
+      - ./logs:/app/logs  # <-- Add this line
+    depends_on:
+      - aggregator
+    restart: always
+

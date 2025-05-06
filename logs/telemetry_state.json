@@ -1,0 +1,42 @@
+{
+    "engine": {
+        "temp": 109.98,
+        "status": "green"
+    },
+    "tires": {
+        "Front-Left": {
+            "psi": 28.92,
+            "status": "green"
+        },
+        "Front-Right": {
+            "psi": 33.23,
+            "status": "green"
+        },
+        "Rear-Left": {
+            "psi": 32.23,
+            "status": "green"
+        },
+        "Rear-Right": {
+            "psi": 31.06,
+            "status": "green"
+        }
+    },
+    "brakes": {
+        "Front-Left": {
+            "temp": 339.87,
+            "status": "green"
+        },
+        "Front-Right": {
+            "temp": 330.0,
+            "status": "green"
+        },
+        "Rear-Left": {
+            "temp": 381.09,
+            "status": "green"
+        },
+        "Rear-Right": {
+            "temp": 375.62,
+            "status": "green"
+        }
+    }
+}
