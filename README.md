@@ -135,8 +135,8 @@ http://localhost:8050
 ---
 
 ## Screenshots
+![Dashboard Demo](https://github.com/nischay92/f1-telemetry/blob/main/DS_Final_GIF%20(online-video-cutter.com).gif)
 
-https://github.com/nischay92/f1-telemetry/blob/main/DS_Final_GIF%20(online-video-cutter.com).gif
 ---
 
 ## Future Enhancements
