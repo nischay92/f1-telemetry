@@ -136,7 +136,6 @@ http://localhost:8050
 
 ## Screenshots
 
-> *(Add Docker stats, dashboard images, terminal output screenshots here)*
 
 ---
 
