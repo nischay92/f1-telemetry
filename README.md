@@ -73,7 +73,7 @@ http://localhost:8050
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Python**
 - **Flask** (for simulating services)
@@ -83,13 +83,13 @@ http://localhost:8050
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
 > *(Add Docker stats, dashboard images, terminal output screenshots here)*
 
 ---
 
-## 🧪 Future Enhancements
+## Future Enhancements
 
 - Add Kafka or Redis Pub/Sub for real event-driven communication
 - Introduce fault tolerance (timeouts, retries)
@@ -98,7 +98,7 @@ http://localhost:8050
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 **Nischay**  
 [GitHub](https://github.com/nischay92)
